@@ -1,3 +1,8 @@
+package day0to9
+
+import println
+import readInput
+
 fun main() {
     fun part1(input: List<String>): Int {
         var totalCalibration = 0
@@ -17,7 +22,7 @@ fun main() {
         "${first.toNumber()}${last.toNumber()}".toLong()
     }
 
-    val input = readInput("Day01")
+    val input = readInput("Day01", "day0to9")
     part1(input).println()
     part2(input).println()
 }

@@ -1,3 +1,8 @@
+package day0to9
+
+import println
+import readInput
+
 fun main() {
     fun part1(input: List<String>): Int {
         var gameId = 1
@@ -95,7 +100,7 @@ fun main() {
     }
 
 
-    val input = readInput("Day02")
+    val input = readInput("Day02", "day0to9")
     part1(input).println()
     part2(input).println()
 }
